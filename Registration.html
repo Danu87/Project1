@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>H.N.B. UTTARAKHAND MEDICAL EDUCATION UNVERSITY</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="#" class="logo d-flex align-items-center">
+                <img src="assets/images/logoDark.png" alt="">
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+
+                <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link nav-icon search-bar-toggle " href="#">
+                        <i class="bi bi-search"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown pe-3">
+
+                    <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                        <img src="assets/images/profile-img.jpg" alt="Profile" class="rounded-circle">
+                        <span class="d-none d-md-block dropdown-toggle ps-2">Vijay Kumar</span>
+                    </a><!-- End Profile Iamge Icon -->
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="Login.html">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Sign Out</span>
+                            </a>
+                        </li>
+
+                    </ul><!-- End Profile Dropdown Items -->
+                </li><!-- End Profile Nav -->
+            </ul>
+        </nav><!-- End Icons Navigation -->
+
+    </header><!-- End Header -->
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+            <li class="nav-item"><a class="nav-link" href="Dashboard.html"><span><i class="bi bi-grid"></i>Dashboard</span></a></li>
+            <li class="nav-item stepCompleated"><a class="nav-link" href="#"><span><i class="bi bi-x-lg"></i><i class="bi bi-check-lg"></i>Pay Counselling Fees</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="Registration.html"><span><i class="bi bi-x-lg"></i><i class="bi bi-check-lg"></i>Registration</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="ImagesUpload.html"><span><i class="bi bi-x-lg"></i><i class="bi bi-check-lg"></i>Images Upload</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="PayParticipationFees.html"><span><i class="bi bi-x-lg"></i><i class="bi bi-check-lg"></i>Pay Participation Fees</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="ChoiceFilling.html"><span><i class="bi bi-x-lg"></i><i class="bi bi-check-lg"></i>Choice Filling</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="Result.html"><span><i class="bi bi-x-lg"></i><i class="bi bi-check-lg"></i>Result</span></a></li>
+        </ul>
+
+    </aside><!-- End Sidebar-->
+
+    <main id="main" class="main">
+
+        <section class="section dashboard mt-4">
+            <div class="card cardBG">
+                <h5 class="card-title">Registration</h5>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Do You Have Uttarakhand Domicile?</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Category</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>SC</option>
+                                <option>ST</option>
+                                <option>OBC</option>
+                                <option>EWS</option>
+                                <option>UR</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Certificate No.</label>
+                            <input type="text" class="form-control" placeholder="" />
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Issue Date</label>
+                            <div class="input-group date">
+                                <input type="text" class="form-control datepicker" placeholder="DD/MM/YYYY" data-date-format="dd/mm/yyyy" />
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white d-block">
+                                        <i class="ri-calendar-fill"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Sub Category</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>UK(W)</option>
+                                <option>FF</option>
+                                <option>DPW</option>
+                                <option>PWD</option>
+                                <option>Orphan</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Certificate No.</label>
+                            <input type="text" class="form-control" placeholder="" />
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Issue Date</label>
+                            <div class="input-group date">
+                                <input type="text" class="form-control datepicker" placeholder="DD/MM/YYYY" data-date-format="dd/mm/yyyy" />
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white d-block">
+                                        <i class="ri-calendar-fill"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Do You Have Internship Certificate?</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Date of Completion</label>
+                            <div class="input-group date">
+                                <input type="text" class="form-control datepicker" placeholder="DD/MM/YYYY" data-date-format="dd/mm/yyyy" />
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white d-block">
+                                        <i class="ri-calendar-fill"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Completion Certificate Issued By</label>
+                            <input type="text" class="form-control" placeholder="" />
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Name of Council</label>
+                            <input type="text" class="form-control" placeholder="" />
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Registration No.</label>
+                            <input type="text" class="form-control" placeholder="" />
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Are You a Bonded Candidate?</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Upload NOC</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Are You a Regular UK State PMHS Candidate?</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Date of Issue of NOC</label>
+                            <div class="input-group date">
+                                <input type="text" class="form-control datepicker" placeholder="DD/MM/YYYY" data-date-format="dd/mm/yyyy" />
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white d-block">
+                                        <i class="ri-calendar-fill"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">Are you claiming the service benifit of Remote Area?</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">No. of Year</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>Less Then 1 Year</option>
+                                <option>2 Years To 3 Years</option>
+                                <option>More Then 3 Years</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">M.B.B.S. Pass Out State</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>Uttarakhand</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">College Name</label>
+                            <select class="form-select">
+                                <option selected="">Choose...</option>
+                                <option>College 1</option>
+                                <option>College 2</option>
+                                <option>College 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">You Are Eligible Only For All India Quota Seat in Pvt Medical College</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="eligibleSeatRadio" id="eligibleSeatRadio1">
+                                <label class="form-check-label" for="eligibleSeatRadio1"> <strong>Private Medical College Only</strong> </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <label class="form-label mand">You Are Eligible For Both State & All India Quota Seats</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="eligibleSeatBothRadio" id="eligibleSeatBothRadio1">
+                                <label class="form-check-label" for="eligibleSeatBothRadio1"> <strong>Govt College Only</strong> </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="eligibleSeatBothRadio" id="eligibleSeatBothRadio2">
+                                <label class="form-check-label" for="eligibleSeatBothRadio2"> <strong>Govt & Private Both</strong> </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4"><a href="#" class="btn1">Submit</a></div>
+
+        </section>
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="copyright">
+            <p class="mb-0">Copyright © H.N.B. Uttarakhand Medical Education University, Dehradun</p>
+        </div>
+    </footer><!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/chart.js/chart.min.js"></script>
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+
+    <script>
+        var myModal = new bootstrap.Modal(document.getElementById("exampleModal"));
+        myModal.show();
+    </script>
+
+
+
+
+</body>
+
+</html>
